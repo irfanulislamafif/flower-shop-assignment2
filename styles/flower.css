@@ -127,22 +127,45 @@
 @media screen and (max-width:576px) {
             .banner-section{
               flex-direction: column;
+              padding: 40px 0;
               
             }
             .header {
-              height: 1500px;
+               max-height: 2000px;
               width: auto;
             }
+            .banner-img {
+                      width: auto;
+                      height: auto;
+
+            }
+           .banner-left {
+                width: auto;
+                height: auto;
+           }
 }
 /* small-medium phone */
-@media screen and (max-width:576px) and (max-width:767px) {
+@media screen and (min-width:576px) and (max-width:767px) {
             .banner-section{
               flex-direction: column;
+               padding: 40px 0;
+              
               
             }
             .header {
-              height: 1500px;
+              max-height: 1800px;
+              
               width: auto;
+            }
+             .banner-img {
+                  width: auto;
+                  height: auto;
+
+
+            }
+            .banner-left {
+                  width: auto;
+                  height: auto;
             }
 }
 
@@ -150,13 +173,25 @@
 /* medium device  */
 
 @media screen and (min-width:767px) and (max-width:991px) {
-                   .banner-section{
+              .banner-section{
               flex-direction: column;
+               padding: 40px 0;
+              
             
             }
  .header {
-              height: 1500px;
+               max-height: 1600px;
               width: auto;
+            }
+             .banner-img {
+                  width: auto;
+                  height: auto;
+
+            }
+            .banner-left {
+                  width: auto;
+                  height: auto;
+              
             }
 
 }
