@@ -134,11 +134,22 @@
               width: auto;
             }
 }
+/* small-medium phone */
+@media screen and (max-width:576px) and (max-width:767px) {
+            .banner-section{
+              flex-direction: column;
+              
+            }
+            .header {
+              height: 1500px;
+              width: auto;
+            }
+}
 
 
 /* medium device  */
 
-@media screen and (min-width:576px) and (max-width:992px) {
+@media screen and (min-width:767px) and (max-width:991px) {
                    .banner-section{
               flex-direction: column;
             
